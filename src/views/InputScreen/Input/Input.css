@@ -1,0 +1,14 @@
+.inputscreen__input {
+  background-color: black;
+  padding: 5px;
+  color: #00ff0a;
+  border: none;
+  width: 50%;
+  font-size: 1.5rem;
+  caret-color: #00ff0a;
+  width: 100%;
+}
+
+.inputscreen__input:focus {
+  outline: 1px solid #009a05;
+}

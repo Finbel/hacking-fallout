@@ -1,0 +1,8 @@
+.gamescreen__wordlist {
+  min-height: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5px;
+  padding-inline: 8px;
+}

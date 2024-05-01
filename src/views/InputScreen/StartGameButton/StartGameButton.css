@@ -1,0 +1,14 @@
+.inputscreen__startGameButton {
+  background-color: black;
+  padding: 5px;
+  color: #00ff0a;
+  margin-inline: auto;
+  border: none;
+  padding-inline: 10px;
+  width: min-content;
+  font-size: 1.5rem;
+  caret-color: #00ff0a;
+  border: 1px solid #00ff0a;
+  border-radius: 5px;
+  align-self: flex-start;
+}

@@ -1,0 +1,27 @@
+.startscreen {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startscreen__button {
+  background-color: black;
+  border: 1px solid #00ff0a;
+  color: #00ff0a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.startscreen__title {
+  color: #00ff0a;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 15vh;
+}

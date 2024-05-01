@@ -1,0 +1,18 @@
+.gamescreen__word {
+  background-color: black;
+  font-size: 1rem;
+  border: none;
+  color: #00ff0a;
+  padding: 5px;
+  line-height: 1rem;
+  align-self: center;
+}
+
+.eliminated {
+  color: #008404;
+}
+
+.suggested {
+  border: 1px solid #00ff0a;
+  background-color: #05ff0d34;
+}

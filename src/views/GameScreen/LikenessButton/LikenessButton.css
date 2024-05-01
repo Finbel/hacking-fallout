@@ -1,0 +1,9 @@
+.gamescreen__likenessButton {
+  background-color: black;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border: 1px solid #00ff0a;
+  padding: 5px;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
