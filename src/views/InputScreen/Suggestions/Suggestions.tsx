@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { allWords } from "../../../constants/allWords";
 import Suggestion from "./Suggestion/Suggestion";
 
@@ -16,6 +16,12 @@ const Suggestions: FC<Props> = ({ words, inputValue, addWord }) => {
       return startsWith && equalSize;
     })
     .sort((a, b) => a.length - b.length);
+
+  useEffect(() => {
+    if (suggestions.length === 1) {
+      addWord(suggestions[0]);
+    }
+  }, [addWord, suggestions]);
 
   return (
     <div>
